@@ -4,7 +4,7 @@ strs = ['dad', 'mom', 'bat', 'car', 'bus', 'pen', 'dog', 'cat']
 points = 0
 string = random.choice(strs)
 
-for i in range(3):
+for i in range(5):
     c = input('Enter a character: ')
     if c in string:
         print('Good')
