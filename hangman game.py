@@ -6,7 +6,7 @@ string = random.choice(strs)
 
 for i in range(5):
     c = input('Enter a character: ')
-    if c in string:
+    if c in string c!='':
         print('Good')
         points = points + 1
     else:
